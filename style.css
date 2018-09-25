@@ -1,0 +1,113 @@
+
+html{
+    background-image: url(https://www.colourbox.com/preview/1952451-the-beautiful-gradient-rainbow-colors-black-background-for-design.jpg);
+    
+}
+
+.sections {
+  
+}
+
+.header{
+    font-size: 50px;
+    font-family: fantasy;
+    color:rgb(238, 238, 81);
+    text-shadow: 5px 5px rgb(175, 175, 211);
+    
+}
+
+.about{
+    display: flex;
+    height: 300px;
+   
+}
+
+#profile{
+    flex:2;
+   
+}
+    #pic{
+    border-radius: 360%;
+    height: 290px;
+    width: 60%;
+    background-color: black;
+    background-image: url(sup.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
+    margin-bottom: 15%;
+   
+
+    }
+
+#info{
+    flex:2;
+    background-color: blue;
+    border: 5px solid yellow;
+    font-size: 25px;
+    color: orange;
+     margin: 5%;
+}   
+
+#info ul{
+    list-style: none;
+}
+
+.gifs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    color: aqua;
+    text-align: center;
+}
+
+#giftv{
+    grid-column: 1;
+    height: 250px;
+}
+#gifmov{
+    grid-column: 2;
+}
+#gifmus{
+    grid-column: 3;
+}
+
+.faves{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.faves ul {
+    list-style: none;
+    text-align: center;
+}
+
+#tv{
+    border: 5px solid rosybrown;
+    grid-column: 1;
+    background: rgba(211, 211, 211, 0.6);
+    text-shadow: 2px 2px black;
+    margin: 5%;
+}
+
+#movie{
+    border: 5px solid rosybrown;
+    grid-column: 2;
+    background: rgba(211, 211, 211, 0.6);
+    text-shadow: 2px 2px black;
+    margin: 5%;
+}
+
+#artist{
+    border: 5px solid rosybrown;
+    grid-column: 3;
+    background: rgba(211, 211, 211, 0.6);
+    text-shadow: 2px 2px black;
+    margin: 5%;
+}
+
